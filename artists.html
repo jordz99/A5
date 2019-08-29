@@ -1,0 +1,215 @@
+<!doctype HTML>
+<html>
+
+<head>
+  <link href="main.css" rel="stylesheet">
+  <title>Elektrik Eel</title>
+  <meta charset="utf-8">
+<!-- Social media icons -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Raleway:400,800&display=swap" rel="stylesheet">
+
+  <style>
+.hero {
+  width: 100%;
+  height: 100px;
+}
+/* Title */
+.intro-1 {
+  height: 100px;
+  width: 100%;
+  padding-top: 30px;
+}
+/* Gallery */
+.column-container {
+  padding-bottom: 20px;
+}
+
+.column {
+  padding: 10px;
+  background-color: black;
+}
+
+.column {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 1s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  width: 200px;
+  height: 100px;
+  transition: .25s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.column:hover .image {
+  opacity: 0.6;
+}
+
+.column:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #ff6600;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.text {
+  font-family: 'Luckiest Guy'; sans-serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+  </style>
+</head>
+
+<body>
+
+  <div class="main">
+    <div class="header-container">
+      <img src="img/crowd9.png" width=100% height="300px">
+        <div class="h1">ELEKTRIK EEL</div>
+    </div>
+  </div>
+
+<!-- Menu -->
+  <nav>
+     <div class="menu">
+        <div class="button"><a href="index.html">HOME</a></div>
+        <div class="button"><a href="about.html">ABOUT</a></div>
+        <div class="button"><a href="artists.html">ARTISTS</a></div>
+        <div class="button"><a href="tickets.html">TICKETS</a></div>
+     </div>
+  </nav>
+
+<!-- Title -->
+<div class="hero">
+    <div class="intro-1">
+      <p5>Artists</p5>
+</div>
+
+<!-- Gallery -->
+<div class="column-container">
+<!-- Row One -->
+  <div class="column">
+    <img src="img/artist1.jpg" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">FLUME</div>
+      </div>
+  </div>
+  <div class="column">
+    <img src="img/artist2.jpg" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">CALVIN HARRIS</div>
+      </div>
+  </div>
+  <div class="column">
+    <img src="img/artist3.jpg" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">DAVID GUETTA</div>
+    </div>
+  </div>
+</div>
+
+<div class="column-container">
+<!-- Row Two -->
+  <div class="column">
+    <img src="img/artist4.jpg" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">SKRILLEX</div>
+    </div>
+  </div>
+  <div class="column">
+    <img src="img/crowd4.jpg" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">DAFT PUNK</div>
+    </div>
+  </div>
+  <div class="column">
+    <img src="img/artist5.jpg" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">ZEDD</div>
+    </div>
+  </div>
+</div>
+
+<div class="column-container">
+<!-- Row Three -->
+  <div class="column">
+    <img src="img/crowd3.jpg" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">ALESSO</div>
+    </div>
+  </div>
+  <div class="column">
+    <img src="img/music5.jpg" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">AVICII</div>
+    </div>
+  </div>
+  <div class="column">
+    <img src="img/crowd5.jpg" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">DIPLO</div>
+    </div>
+  </div>
+</div>
+
+<!-- Newsletter -->
+<div class="newsletter">
+  <form action="/action_page.php">
+    <div class="container">
+        <h2>Subscribe to our Newsletter</h2>
+        <p>Want to get the scoop on festival news, competitions and tickets?
+           Sign up to our weekly newsletter so you don't miss a thing!</p>
+    </div>
+    <div class="container" style="background-color:white">
+        <input type="text" placeholder="Name" name="name" required>
+        <input type="text" placeholder="Email address" name="mail" required>
+    </div>
+    <div class="container">
+        <input type="submit" value="Subscribe">
+    </div>
+  </form>
+</div>
+
+<!-- Contact information -->
+<div class="footer">
+    <p>Phone: 1300 154 958</p>
+</div>
+<div class="footer">
+    <p>Email: elektrikeel@gmail.com</p>
+</div>
+<div class="footer">
+    <p>Address: 11 Elektrik street, Eel, VIC, 2430</p>
+</div>
+
+<div class="social">
+<!-- Social media links -->
+    <a href="https://www.instagram.com/splendourinthegrass/?hl=en" class="fa fa-instagram"></a>
+    <a href="https://www.facebook.com/splendourinthegrass/" class="fa fa-facebook"></a>
+</div>
+
+</body>
+</html>

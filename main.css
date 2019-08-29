@@ -1,0 +1,389 @@
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  background-color: black;
+}
+
+.main {
+  width: 100%;
+  background-color: rgb(204, 0, 153);
+}
+
+.header-container {
+  width: 100%;
+  height: 250px;
+  background-color: rgb(255,102,0);
+  font-size: 50px;
+  text-align: center;
+}
+
+.header-container img {
+  position: relative;
+  clip: rect(0px,60px,200px,0px);
+  object-fit: cover;
+}
+
+.header-container {
+  position: relative;
+  text-align: center;
+  background-color: : white;
+}
+
+.h1 {
+  color: white;
+  font-family:  'Luckiest Guy', cursive;
+  font-weight: bold;
+  letter-spacing: 6px;
+  font-size: 100px;
+  text-align: center;
+}
+
+.h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.menu {
+  width: 100%;
+  height: 50px;
+  background-color: rgba(255, 102, 0, 0);
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+/* LINKS */
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+/* These are the link colours */
+  a:link {
+    color: white;
+}
+
+/* visited link */
+  a:visited {
+    color: white;
+}
+
+/* mouse over link */
+  a:hover {
+    color: white;
+    text-decoration: underline;
+
+}
+
+/* selected link */
+  a:active {
+    color: #ff6600;
+}
+
+/* Buttons*/
+.button {
+  width: 125px;
+  height: 25px;
+  padding: 10px;
+  background-color: #ff6600;
+  border: 2px solid #ff6600;
+  border-radius: 8px;
+  margin: 50px;
+  margin-bottom: 70px;
+}
+
+.button {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: white;
+  transition: 0.5s;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: rgb(0,255,255);
+  color: white;
+  width: 150px;
+  transition: 0.5s;
+  border: 2px solid rgb(0,255,255);
+  border-radius:100px;
+}
+
+.hero {
+  width: 100%;
+  height: 500px;
+  background-color: black;
+}
+
+/* Hero text */
+.intro-1 {
+  width: 100%;
+  height: 550px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  align-items: center;
+  line-height: 1.6;
+}
+
+.intro-1 p1 {
+  padding: 10px;
+  padding-left: 20px;
+  color: #ff6600;
+  font-size: 30px;
+  line-height: 1;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+
+.intro-1 p2 {
+  padding: 10px;
+  padding-left: 20px;
+  line-height: 1.6;
+  color: white;
+  font-size: 20px;
+}
+
+.intro-1 p3 {
+  padding: 10px;
+  padding-left: 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.intro-1 p4 {
+  padding: 10px;
+  padding-left: 20px;
+  color: white;
+  font-size: 30px;
+}
+
+.intro-1 p5 {
+  padding: 10px;
+  padding-left: 20px;
+  font-family: 'Luckiest Guy', cursive;
+  color: white;
+  font-size: 50px;
+  letter-spacing: 3px;
+}
+
+/* Images */
+.column-container {
+  width: 100%;
+  height: 300px;
+  display: flex;
+}
+
+.column {
+  width: 50%;
+  height: 300px;
+}
+
+.column img {
+  float: left;
+  width: 50%;
+  height:100%;
+  object-fit: cover;
+}
+
+/* Ticket section */
+.purchase{
+  width: 100%;
+  height: 150px;
+  float: left;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff6600;
+}
+
+.purchase p1 {
+  margin-top: 50px;
+  font-family: 'Luckiest Guy'; sans-serif;
+  font-size: 60px;
+  color: white;
+  letter-spacing: 4px;
+}
+
+.ticket.container {
+  width: 100%;
+  height: 200px;
+  display: flex;
+}
+
+.ticket {
+  width: 33.33%;
+  height: 150px;
+  padding-top: 30px;
+  background-color: black;
+  float: left;
+  text-align: center;
+  align-items: center;
+  line-height: 1.6;
+}
+
+.ticket p6 {
+  padding: 10px;
+  padding-left: 20px;
+  font-family: 'Luckiest Guy'; cursive;
+  font-size: 30px;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.ticket p7 {
+  padding: 10px;
+  padding-left: 14px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 25px;
+  color: #ff6600;
+  letter-spacing: 2px;
+}
+
+.ticket p8 {
+  padding: 10px;
+  padding-left: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  color: white;
+  font-style: italic;
+}
+
+/* Book now */
+.book {
+  width: 33.33%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  background-color: black;
+  padding-bottom: 60px;
+}
+
+/* Contact information */
+.footer {
+  width: 33.33%;
+  height: 50px;
+  display: flex;
+  float: left;
+  background-color: black;
+  text-align: center;
+  justify-content: center;
+}
+
+.footer {
+  font-family: 'Raleway'; sans-serif;
+  font-size: 18px;
+  color: white;
+  text-decoration: underline;
+}
+
+/* Newsletter form */
+.newsletter {
+  width: 100%;
+  float: left;
+  display: inline-block;
+  background-color: #ff6600;
+}
+
+form {
+  margin: 0 auto;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #ff6600;
+  font-family: 'Raleway'; sans-serif;
+  color: white;
+}
+
+.container {
+  padding: 20px;
+  background-color: #ff6600;
+}
+
+.h2 {
+  padding-top: 20px;
+}
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ff6600;
+  box-sizing: border-box;
+  font-family: 'Raleway'; sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+input[type=submit] {
+  background-color: rgba(255, 102, 0, 0);
+  width: 100%;
+  transition: 1s;
+  color: white;
+  border: none;
+  font-family: 'Luckiest Guy'; sens-serif;
+  font-size: 30px;
+  letter-spacing: 4px;
+}
+
+input[type=submit]:hover {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  transition: 0.5s;
+  color: black;
+  text-decoration: underline;
+}
+
+/* social media icons */
+.social {
+  width: 100%;
+  background-color: black;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 70%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
