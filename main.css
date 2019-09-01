@@ -1,6 +1,5 @@
 
- 
-    /************** laptop **************/
+/****************************** laptop ******************************/
 
       @media only screen and (min-width: 1200px) {
 
@@ -22,7 +21,6 @@ body {
   font-size: 50px;
   text-align: center;
 }
-
 
 .header-container img {
   position: relative;
@@ -57,6 +55,7 @@ body {
 .navbar-menu {
 
 }
+
 .menu-listing {
   width: 100%;
   height: 50px;
@@ -72,24 +71,19 @@ a {
   outline: none;
   text-decoration: none;
 }
-
 /* These are the link colours */
   a:link {
     color: white;
 }
-
 /* visited link */
   a:visited {
     color: white;
 }
-
 /* mouse over link */
   a:hover {
     color: white;
     text-decoration: underline;
-
 }
-
 /* selected link */
   a:active {
     color: #ff6600;
@@ -154,7 +148,6 @@ a {
   letter-spacing: 2px;
 }
 
-
 .intro-1 p2 {
   padding: 10px;
   padding-left: 20px;
@@ -208,80 +201,73 @@ a {
   object-fit: cover;
 }
 
-
 /* Gllaery */
-
 .gallery {
   width: 100%;
   display: inline-block;
   justify-content: center;
   align-items: center;
-
 }
 
 #gallery_viewport {
-    overflow: hidden;
-    background-color: black;
-    margin-top: 20px;
-    width: 100%;
-    height: 360px;
-    min-width: 306px;
-    min-height: 340px;
-    background-repeat: no-repeat;
-    position: relative;
-    float: left;
-    justify-content: center;
-    align-items: center;
-    display: inline-block;
-
-
+  overflow: hidden;
+  background-color: black;
+  margin-top: 20px;
+  width: 100%;
+  height: 360px;
+  min-width: 306px;
+  min-height: 340px;
+  background-repeat: no-repeat;
+  position: relative;
+  float: left;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
 }
 
 #gallery_image {
-    position: relative;
-    height: 306px;
-    min-height: 306px;
-    background-repeat: no-repeat;
+  position: relative;
+  height: 306px;
+  min-height: 306px;
+  background-repeat: no-repeat;
 }
 
 .tiled_image {
-    display: inline;
-    float: left;
-    width: 306px;
-    height: 306px;
+  display: inline;
+  float: left;
+  width: 306px;
+  height: 306px;
 }
 
 .styled_button {
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    background-color: black;
-    color: white;
-    text-align: center;
-    cursor: pointer;
-}
-
-
-#previous {
-    display: flex;
-    float: left;
-    width: 300px;
-    padding: 5px;
-    margin-left: 30%;
-    margin-top: 4px;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(255, 102, 0, 0);
-    border: solid 1px #ff6600;
-
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  cursor: pointer;
 }
 
 #previous {
-    color: white;
-    font-family: 'Raleway'; sans-serif;
-    letter-spacing: 1px;
-    font-weight: bold;
-    font-size: 25px;
+  display: flex;
+  float: left;
+  width: 300px;
+  padding: 5px;
+  margin-left: 30%;
+  margin-top: 4px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 102, 0, 0);
+  border: solid 1px #ff6600;
+}
+
+#previous {
+  color: white;
+  font-family: 'Raleway'; sans-serif;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 25px;
 }
 
 #next {
@@ -294,16 +280,15 @@ a {
   align-items: center;
   width: 300px;
   background-color: rgba(255, 102, 0, 0);
-border: solid 1px #ff6600;
-
+  border: solid 1px #ff6600;
 }
 
 #next {
-    color: white;
-    font-family: 'Raleway'; sans-serif;
-    letter-spacing: 1px;
-    font-weight: bold;
-    font-size: 25px;
+  color: white;
+  font-family: 'Raleway'; sans-serif;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 25px;
 }
 
 /* Ticket section */
@@ -529,1173 +514,1111 @@ input[type=submit]:hover {
 
 }
 
-  /**************************** Ipad *************************/
-
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {
-
-    body {
-      margin: 0;
-      font-family: 'Raleway', sans-serif;
-      background-color: black;
-    }
-
-    .main {
-      width: 100%;
-      background-color: rgb(204, 0, 153);
-    }
-
-    .header-container {
-      width: 100%;
-      height: 250px;
-      background-color: rgb(255,102,0);
-      font-size: 50px;
-      text-align: center;
-    }
-
-    .header-container img {
-      position: relative;
-      clip: rect(0px,60px,200px,0px);
-      object-fit: cover;
-    }
-
-    .header-container {
-      position: relative;
-      text-align: center;
-      background-color: : white;
-    }
-
-    .h1 {
-      color: white;
-      font-family:  'Luckiest Guy', cursive;
-      font-weight: bold;
-      letter-spacing: 6px;
-      font-size: 100px;
-      text-align: center;
-    }
-
-    .h1 {
-      width: 100%;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      text-align: center;
-    }
-
-    .navbar-menu {
-      background-color: #fafafa;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 200px;
-      transform: translateX(-100%);
-      transition: 0.5s;
-    }
-
-    .navbar-menu.active { transform: translateX(0);transition: 0.5s; }
-
-    .navbar-menu .menu-listing { padding: 0;margin: 0;text-align: right; }
-
-    .menu-listing li { display: inline-block; }
-
-    .menu-listing li a {
-      background-color: #000000;
-      color: white;
-      display: block;
-      font-size: 1rem;
-      height: 55px;
-      line-height: 4;
-      padding: 0 10px;
-      padding-bottom: 10px;
-      letter-spacing: 1px;
-      text-decoration: none;
-      transition: 0.5s;
-    }
-
-    .menu-listing li a:hover { background-color: rgb(255,102,0);color: white;transition: 0.5s; }
-
-/* FOR HAMBURGER */
-    .menu {
-      position: relative;
-      top: 10px;
-      left: 0;
-      background-color: rgb(255,102,0);
-      height: 50px;
-      width: 100%;
-      cursor: pointer;
-      transition: 0.3s;
-      z-index: 9999;
-    }
-
-    .menu span {
-      position: absolute;
-      height: 3px;
-      width: 25px;
-      background-color: #fff;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%,-50%);
-      transition: 0.3s;
-    }
-
-    .menu span:before {
-      content: '';
-      position: absolute;
-      top: -8px;
-      background-color: #fff;
-      height: 3px;
-      width: 25px;
-      transition: 0.3s;
-    }
-
-    .menu span:after {
-      content: '';
-      position: absolute;
-      top: 8px;
-      background-color: #fff;
-      height: 3px;
-      width: 25px;
-      transition: 0.3s;
-    }
-
-    .menu.active span { background-color: transparent; }
-
-    .menu.active span:before { transform: rotate(45deg);top: 0; }
-
-    .menu.active span:after { transform: rotate(-45deg);top: 0; }
-
-
-    /* mEDIA */
-
-    .navbar-menu { height: auto;z-index: 1; }
-
-  .menu-listing li { display: block; }
-
-  .navbar-menu .menu-listing { text-align: center; }
-
-    /* LINKS */
-    a {
-      outline: none;
-      text-decoration: none;
-    }
-
-    /* These are the link colours */
-      a:link {
-        color: white;
-    }
-
-    /* visited link */
-      a:visited {
-        color: white;
-    }
-
-    /* mouse over link */
-      a:hover {
-        color: white;
-        text-decoration: underline;
-
-    }
-
-    /* selected link */
-      a:active {
-        color: #ff6600;
-    }
-
-    /* Buttons*/
-    .button {
-      width: 125px;
-      height: 25px;
-      padding: 10px;
-      background-color: #ff6600;
-      border: 2px solid #ff6600;
-      border-radius: 8px;
-      margin: 50px;
-      margin-bottom: 70px;
-    }
-
-    .button {
-      font-family: 'Raleway', sans-serif;
-      font-size: 18px;
-      font-weight: bold;
-      letter-spacing: 1px;
-      color: white;
-      transition: 0.5s;
-      text-align: center;
-    }
-
-    .button:hover {
-      background-color: rgb(0,255,255);
-      color: white;
-      width: 150px;
-      transition: 0.5s;
-      border: 2px solid rgb(0,255,255);
-      border-radius:100px;
-    }
-
-    .hero {
-      width: 100%;
-      height: 500px;
-      background-color: black;
-    }
-
-    /* Hero text */
-    .intro-1 {
-      width: 100%;
-      height: 550px;
-      color: white;
-      font-family: 'Raleway', sans-serif;
-      text-align: center;
-      align-items: center;
-      line-height: 1.6;
-    }
-
-    .intro-1 p1 {
-      padding: 10px;
-      padding-left: 20px;
-      color: #ff6600;
-      font-size: 20px;
-      line-height: 1;
-      font-weight: 800;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-    }
-
-
-    .intro-1 p2 {
-      padding: 10px;
-      padding-left: 20px;
-      line-height: 1.6;
-      color: white;
-      font-size: 20px;
-    }
-
-    .intro-1 p3 {
-      padding: 10px;
-      padding-left: 20px;
-      color: white;
-      font-size: 30px;
-      font-weight: 800;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-    }
-
-    .intro-1 p4 {
-      padding: 10px;
-      padding-left: 12px;
-      color: white;
-      font-size: 1.5em;
-    }
-
-    .intro-1 p5 {
-
-
-      font-family: 'Luckiest Guy', cursive;
-      color: white;
-      font-size: 1.5em;
-      letter-spacing: 2px;
-
-    }
-
-
-    /* Images */
-    .column-container {
-      width: 100%;
-      height: 300px;
-      display: flex;
-    }
-
-    .column {
-      width: 50%;
-      height: 300px;
-    }
-
-    .column img {
-      float: left;
-      width: 50%;
-      height:100%;
-      object-fit: cover;
-    }
-
-
-/* GALLERY */
-
-
-    .gallery {
-      width: 610px;
-      display: inline-block;
-      justify-content: center;
-      align-items: center;
-
-    }
-
-    #gallery_viewport {
-        overflow: hidden;
-        background-color: black;
-        margin-top: 20px;
-        width: 100%;
-        margin-left: 70px;
-        height: 360px;
-        min-width: 306px;
-        min-height: 340px;
-        background-repeat: no-repeat;
-        position: relative;
-        float: left;
-        justify-content: center;
-        align-items: center;
-        display: inline-block;
-    }
-
-    #gallery_image {
-        position: relative;
-        height: 306px;
-        min-height: 306px;
-        background-repeat: no-repeat;
-    }
-
-    .tiled_image {
-        display: inline;
-        float: left;
-        width: 306px;
-        height: 306px;
-    }
-
-    .styled_button {
-        -moz-border-radius: 5px;
-        -webkit-border-radius: 5px;
-        border-radius: 5px;
-        background-color: black;
-        color: white;
-        text-align: center;
-        cursor: pointer;
-    }
-
-
-    #previous {
-        display: flex;
-        float: left;
-        width: 100px;
-        padding: 12px;
-        margin-left: 178px;
-        margin-top: 4px;
-        justify-content: center;
-        align-items: center;
-        background-color: #ff6600;
-        border: solid 1px #ff6600;
-
-    }
-
-    #previous {
-        color: white;
-        font-family: 'Raleway'; sans-serif;
-        letter-spacing: 1px;
-        font-weight: bold;
-        font-size: 1em;
-    }
-
-    #next {
-      float: left;
-      display: flex;
-      margin-left: 5px;
-      margin-top: 4px;
-      padding: 12px;
-      justify-content: center;
-      align-items: center;
-      width: 100px;
-      background-color: #ff6600;
-    border: solid 1px #ff6600;
-
-    }
-
-    #next {
-        color: white;
-        font-family: 'Raleway'; sans-serif;
-        letter-spacing: 1px;
-        font-weight: bold;
-        font-size: 1em;
-    }
-
-
-
-    /* Ticket section */
-    .purchase{
-      width: 100%;
-      height: 150px;
-      float: left;
-      display: flex;
-      text-align: center;
-      align-items: center;
-      justify-content: center;
-      background-color: #ff6600;
-    }
-
-    .purchase p1 {
-      margin-top: 50px;
-      font-family: 'Luckiest Guy'; sans-serif;
-      font-size: 60px;
-      color: white;
-      letter-spacing: 4px;
-    }
-
-    .ticket.container {
-      width: 100%;
-      height: 200px;
-      display: flex;
-    }
-
-    .ticket {
-      width: 33.33%;
-      height: 150px;
-      padding-top: 30px;
-      background-color: black;
-      float: left;
-      text-align: center;
-      align-items: center;
-      line-height: 1.6;
-    }
-
-    .ticket p6 {
-      padding: 10px;
-      padding-left: 20px;
-      font-family: 'Luckiest Guy'; cursive;
-      font-size: 30px;
-      color: white;
-      letter-spacing: 2px;
-    }
-
-    .ticket p7 {
-      padding: 10px;
-      padding-left: 14px;
-      font-family: 'Raleway', sans-serif;
-      font-weight: 800;
-      font-size: 25px;
-      color: #ff6600;
-      letter-spacing: 2px;
-    }
-
-    .ticket p8 {
-      padding: 10px;
-      padding-left: 20px;
-      font-family: 'Raleway', sans-serif;
-      font-size: 18px;
-      color: white;
-      font-style: italic;
-    }
-
-    /* Book now */
-    .book {
-      width: 33.33%;
-      height: 100px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      float: left;
-      background-color: black;
-      padding-bottom: 60px;
-    }
-
-    /* Contact information */
-    .footer {
-      width: 33.33%;
-      height: 50px;
-      display: flex;
-      float: left;
-      background-color: black;
-      text-align: center;
-      justify-content: center;
-    }
-
-    .footer {
-      font-family: 'Raleway'; sans-serif;
-      font-size: 0.75em;
-      color: white;
-      text-decoration: underline;
-    }
-
-    /* Newsletter form */
-    .newsletter {
-      width: 100%;
-      float: left;
-      display: inline-block;
-      background-color: #ff6600;
-    }
-
-    form {
-      margin: 0 auto;
-      width: 80%;
-      justify-content: center;
-      align-items: center;
-      border: 3px solid #ff6600;
-      font-family: 'Raleway'; sans-serif;
-      color: white;
-    }
-
-    .container {
-      padding: 20px;
-      background-color: #ff6600;
-    }
-
-    .h2 {
-      padding-top: 20px;
-    }
-
-    input[type=text], input[type=submit] {
-      width: 100%;
-      padding: 12px;
-      margin: 8px 0;
-      display: inline-block;
-      border: 1px solid #ff6600;
-      box-sizing: border-box;
-      font-family: 'Raleway'; sans-serif;
-      font-size: 18px;
-      color: white;
-    }
-
-    input[type=submit] {
-      background-color: rgba(255, 102, 0, 0);
-      width: 100%;
-      transition: 1s;
-      color: white;
-      border: none;
-      font-family: 'Luckiest Guy'; sens-serif;
-      font-size: 30px;
-      letter-spacing: 4px;
-    }
-
-    input[type=submit]:hover {
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-      padding: 10px;
-      transition: 0.5s;
-      color: black;
-      text-decoration: underline;
-    }
-
-    /* social media icons */
-    .social {
-      width: 100%;
-      background-color: black;
-      float: left;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding-top: 20px;
-      padding-bottom: 20px;
-    }
-
-    .fa {
-      padding: 20px;
-      font-size: 50px;
-      width: 20px;
-      text-align: center;
-      text-decoration: none;
-      margin: 5px 2px;
-      border-radius: 70%;
-    }
-
-    .fa:hover {
-      opacity: 0.7;
-    }
-
-    .fa-facebook {
-      background: #3B5998;
-      color: white;
-    }
-
-    .fa-instagram {
-      background: #125688;
-      color: white;
-    }
-
-
-
-  }
-
-  /************************* Mobile *************************/
-
-  @media only screen and (max-width: 600px) {
-
-    body {
-      margin: 0;
-      font-family: 'Raleway', sans-serif;
-      background-color: black;
-    }
-
-    .main {
-      width: 100%;
-      background-color: rgb(204, 0, 153);
-    }
-
-    .header-container {
-      width: 100%;
-      height: 150px;
-      background-color: rgb(255,102,0);
-      font-size: 50px;
-      text-align: center;
-    }
-
-    .header-container img {
-      position: relative;
-      height: 160px;
-      clip: rect(0px,60px,200px,0px);
-      object-fit: cover;
-    }
-
-    .header-container {
-      position: relative;
-      text-align: center;
-      background-color: : white;
-    }
-
-    .h1 {
-      color: white;
-      font-family:  'Luckiest Guy', cursive;
-      font-weight: bold;
-      letter-spacing: 6px;
-      font-size: 1em;
-      text-align: center;
-    }
-
-    .h1 {
-      width: 100%;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      text-align: center;
-    }
-
-
-    /* nEW MENU */
-        .navbar-menu {
-          background-color: #fafafa;
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 200px;
-          transform: translateX(-100%);
-          transition: 0.5s;
-        }
-
-        .navbar-menu.active { transform: translateX(0);transition: 0.5s; }
-
-        .navbar-menu .menu-listing { padding: 0;margin: 0;text-align: right; }
-
-        .menu-listing li { display: inline-block; }
-
-        .menu-listing li a {
-          background-color: #000000;
-          color: white;
-          display: block;
-          font-size: 1rem;
-          height: 30px;
-          line-height: 3;
-          padding: 0 10px;
-          padding-bottom: 10px;
-          letter-spacing: 1px;
-          text-decoration: none;
-          transition: 0.5s;
-        }
-
-        .menu-listing li a:hover { background-color: rgb(204, 0, 153);color: pink;transition: 0.5s; }
-
-    /* FOR HAMBURGER */
-        .menu {
-          position: relative;
-          top: 10px;
-          left: 0;
-          background-color: rgb(255,102,0);
-          height: 50px;
-          width: 100%;
-          cursor: pointer;
-          transition: 0.3s;
-          z-index: 9999;
-        }
-
-        .menu span {
-          position: absolute;
-          height: 3px;
-          width: 25px;
-          background-color: #fff;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%,-50%);
-          transition: 0.3s;
-        }
-
-        .menu span:before {
-          content: '';
-          position: absolute;
-          top: -8px;
-          background-color: #fff;
-          height: 3px;
-          width: 25px;
-          transition: 0.3s;
-        }
-
-        .menu span:after {
-          content: '';
-          position: absolute;
-          top: 8px;
-          background-color: #fff;
-          height: 3px;
-          width: 25px;
-          transition: 0.3s;
-        }
-
-        .menu.active span { background-color: transparent; }
-
-        .menu.active span:before { transform: rotate(45deg);top: 0; }
-
-        .menu.active span:after { transform: rotate(-45deg);top: 0; }
-
-
-        /* mEDIA */
-
-        .navbar-menu { height: auto;z-index: 1; }
-
-      .menu-listing li { display: block; }
-
-      .navbar-menu .menu-listing { text-align: center; }
-    /* LINKS */
-    a {
-      outline: none;
-      text-decoration: none;
-    }
-
-    /* These are the link colours */
-      a:link {
-        color: white;
-    }
-
-    /* visited link */
-      a:visited {
-        color: white;
-    }
-
-    /* mouse over link */
-      a:hover {
-        color: white;
-        text-decoration: underline;
-
-    }
-
-    /* selected link */
-      a:active {
-        color: #ff6600;
-    }
-
-    /* Buttons*/
-    .button {
-      width: 125px;
-      height: 25px;
-      padding: 10px;
-      background-color: #ff6600;
-      border: 2px solid #ff6600;
-      border-radius: 8px;
-      margin: 50px;
-      margin-bottom: 70px;
-    }
-
-    .button {
-      font-family: 'Raleway', sans-serif;
-      font-size: 0.75em;
-      font-weight: bold;
-      letter-spacing: 1px;
-      color: white;
-      transition: 0.5s;
-      text-align: center;
-    }
-
-    .button:hover {
-      background-color: rgb(0,255,255);
-      color: white;
-      width: 150px;
-      transition: 0.5s;
-      border: 2px solid rgb(0,255,255);
-      border-radius:100px;
-    }
-
-    .hero {
-      width: 100%;
-      height: 450px;
-      background-color: black;
-    }
-
-    /* Hero text */
-    .intro-1 {
-      width: 100%;
-      height: 450px;
-      color: white;
-      font-family: 'Raleway', sans-serif;
-      text-align: center;
-      align-items: center;
-      line-height: 1.6;
-    }
-
-    .intro-1 p1 {
-      padding: 10px;
-      padding-left: 20px;
-      color: #ff6600;
-      font-size: 1em;
-      line-height: 1;
-      font-weight: 800;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-    }
-
-
-    .intro-1 p2 {
-      padding: 10px;
-      padding-left: 20px;
-      line-height: 1.6;
-      color: white;
-      font-size: 0.75em;
-    }
-
-    .intro-1 p3 {
-      padding: 10px;
-      padding-left: 20px;
-      color: white;
-      font-size: 1em;
-      font-weight: 800;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-    }
-
-    .intro-1 p4 {
-      padding: 10px;
-      padding-left: 20px;
-      color: white;
-      font-size: 0.75em;
-
-    }
-
-    .intro-1 p5 {
-      padding: 20px;
-      padding-left: 10px;
-      font-family: 'Luckiest Guy', cursive;
-      color: white;
-      line-height: 1.4;
-      font-size: 1.5em;
-      letter-spacing: 0.5px;
-    }
-
-
-
-    /* Images */
-    .column-container {
-      width: 100%;
-      height: 300px;
-      display: flex;
-    }
-
-    .column {
-      width: 50%;
-      height: 300px;
-    }
-
-    .column img {
-      float: left;
-      width: 50%;
-      height:100%;
-      object-fit: cover;
-    }
-
-
-
-/* gallery */
-
-.gallery {
-  width: 306px;
-  display: inline-block;
-  justify-content: center;
-  align-items: center;
-
-}
-
-#gallery_viewport {
-    overflow: hidden;
-    background-color: black;
-    margin-top: 20px;
-    width: 100%;
-    margin-left: 55px;
-    height: 360px;
-    min-width: 306px;
-    min-height: 340px;
-    background-repeat: no-repeat;
-    position: relative;
-    float: left;
-    justify-content: center;
-    align-items: center;
-    display: inline-block;
-
-
-
-}
-
-#gallery_image {
-    position: relative;
-    height: 306px;
-    min-height: 306px;
-    background-repeat: no-repeat;
-}
-
-.tiled_image {
-    display: inline;
-    float: left;
-    width: 306px;
-    height: 306px;
-}
-
-.styled_button {
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    background-color: black;
-    color: white;
-    text-align: center;
-    cursor: pointer;
-}
-
-
-#previous {
-    display: flex;
-    float: left;
-    width: 100px;
-    padding: 12px;
-    margin-left: 25px;
-    margin-top: 4px;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(255, 102, 0, 0);
-    border: solid 1px #ff6600;
-
-}
-
-#previous {
-    color: white;
-    font-family: 'Raleway'; sans-serif;
-    letter-spacing: 1px;
-    font-weight: bold;
-    font-size: 1em;
-}
-
-#next {
-  float: left;
-  display: flex;
-  margin-left: 5px;
-  margin-top: 4px;
-  padding: 12px;
-  justify-content: center;
-  align-items: center;
-  width: 100px;
-  background-color: rgba(255, 102, 0, 0);
-border: solid 1px #ff6600;
-
-}
-
-#next {
-    color: white;
-    font-family: 'Raleway'; sans-serif;
-    letter-spacing: 1px;
-    font-weight: bold;
-    font-size: 1em;
-}
-
-
-
-    /* Ticket section */
-    .purchase{
-      width: 100%;
-      height: 50px;
-      float: left;
-      display: flex;
-      text-align: center;
-      align-items: center;
-      justify-content: center;
-      background-color: #ff6600;
-    }
-
-    .purchase p1 {
-      margin-top: 10px;
-      font-family: 'Luckiest Guy'; sans-serif;
-      font-size: 2em;
-      color: white;
-      letter-spacing: 4px;
-    }
-
-    .ticket.container {
-      width: 100%;
-      height: 100px;
-      float: left;
-    }
-
-    .ticket {
-      width: 33.33%;
-      height: 150px;
-      padding-top: 30px;
-      background-color: black;
-      float: left;
-      text-align: center;
-      align-items: center;
-      line-height: 1.6;
-    }
-
-    .ticket p6 {
-      padding: 10px;
-      padding-left: 20px;
-      font-family: 'Luckiest Guy'; cursive;
-      font-size: 1em;
-      color: white;
-      letter-spacing: 2px;
-    }
-
-    .ticket p7 {
-      padding: 10px;
-      padding-left: 14px;
-      font-family: 'Raleway', sans-serif;
-      font-weight: 800;
-      font-size: 1.5em;
-      color: #ff6600;
-      letter-spacing: 2px;
-    }
-
-    .ticket p8 {
-      padding: 10px;
-      padding-left: 20px;
-      font-family: 'Raleway', sans-serif;
-      font-size: 1em;
-      color: white;
-      font-style: italic;
-    }
-
-    /* Book now */
-    .book {
-      width: 33.33%;
-      height: 70px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      float: left;
-      background-color: black;
-      padding-bottom: 10px;
-    }
-
-    /* Contact information */
-    .footer {
-      width: 33.33%;
-      height: 50px;
-      display: flex;
-      float: left;
-      background-color: black;
-      text-align: center;
-      justify-content: center;
-    }
-
-    .footer {
-      font-family: 'Raleway'; sans-serif;
-      font-size: 0.75em;
-      color: white;
-      text-decoration: underline;
-    }
-
-    /* Newsletter form */
-    .newsletter {
-      width: 100%;
-      height: 400px;
-      float: left;
-      display: inline-block;
-      background-color: #ff6600;
-    }
-
-    form {
-      margin: 0 auto;
-      width: 80%;
-      justify-content: center;
-      align-items: center;
-      border: 3px solid #ff6600;
-      font-family: 'Raleway'; sans-serif;
-      color: white;
-    }
-
-    .container {
-      padding: 5px;
-      background-color: #ff6600;
-    }
-
-    .h2 {
-      padding-top: 20px;
-    }
-
-    input[type=text], input[type=submit] {
-      width: 100%;
-      padding: 10px;
-      margin: 8px 0;
-      display: inline-block;
-      border: 1px solid #ff6600;
-      box-sizing: border-box;
-      font-family: 'Raleway'; sans-serif;
-      font-size: 18px;
-      color: white;
-    }
-
-    input[type=submit] {
-      background-color: rgba(255, 102, 0, 0);
-      width: 100%;
-      transition: 1s;
-      color: white;
-      border: none;
-      font-family: 'Luckiest Guy'; sens-serif;
-      font-size: 1.5em;
-      letter-spacing: 4px;
-    }
-
-    input[type=submit]:hover {
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-      padding: 10px;
-      transition: 0.5s;
-      color: black;
-      text-decoration: underline;
-    }
-
-    /* social media icons */
-    .social {
-      width: 100%;
-      background-color: black;
-      float: left;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .fa {
-      padding: 20px;
-      font-size: 20px;
-      width: 10px;
-      height: 10px;
-      text-align: center;
-      text-decoration: none;
-      margin: 5px 2px;
-      border-radius: 70%;
-    }
-
-    .fa:hover {
-      opacity: 0.7;
-    }
-
-    .fa-facebook {
-      background: #3B5998;
-      color: white;
-    }
-
-    .fa-instagram {
-      background: #125688;
-      color: white;
-    }
-
-  }
+            /**************************** Ipad *************************/
+
+            @media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+              body {
+                margin: 0;
+                font-family: 'Raleway', sans-serif;
+                background-color: black;
+              }
+
+              .main {
+                width: 100%;
+                background-color: rgb(204, 0, 153);
+              }
+
+              .header-container {
+                width: 100%;
+                height: 250px;
+                background-color: rgb(255,102,0);
+                font-size: 50px;
+                text-align: center;
+              }
+
+              .header-container img {
+                position: relative;
+                clip: rect(0px,60px,200px,0px);
+                object-fit: cover;
+              }
+
+              .header-container {
+                position: relative;
+                text-align: center;
+                background-color: : white;
+              }
+
+              .h1 {
+                color: white;
+                font-family:  'Luckiest Guy', cursive;
+                font-weight: bold;
+                letter-spacing: 6px;
+                font-size: 100px;
+                text-align: center;
+              }
+
+              .h1 {
+                width: 100%;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                text-align: center;
+              }
+
+              /* HAMBURGER */
+              .navbar-menu {
+                background-color: #fafafa;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 200px;
+                transform: translateX(-100%);
+                transition: 0.5s;
+              }
+
+              .navbar-menu.active { transform: translateX(0);transition: 0.5s; }
+              .navbar-menu .menu-listing { padding: 0;margin: 0;text-align: right; }
+              .menu-listing li { display: inline-block; }
+
+              .menu-listing li a {
+                background-color: black;
+                color: white;
+                display: block;
+                font-size: 1rem;
+                height: 55px;
+                line-height: 4;
+                padding: 0 10px;
+                padding-bottom: 10px;
+                letter-spacing: 1px;
+                text-decoration: none;
+                transition: 0.5s;
+              }
+
+              .menu-listing li a:hover { background-color: rgb(255,102,0);color: white;transition: 0.5s; }
+
+              .menu {
+                position: relative;
+                top: 10px;
+                left: 0;
+                background-color: rgb(255,102,0);
+                height: 50px;
+                width: 100%;
+                cursor: pointer;
+                transition: 0.3s;
+                z-index: 9999;
+              }
+
+              .menu span {
+                position: absolute;
+                height: 3px;
+                width: 25px;
+                background-color: #fff;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                transition: 0.3s;
+              }
+
+              .menu span:before {
+                content: '';
+                position: absolute;
+                top: -8px;
+                background-color: #fff;
+                height: 3px;
+                width: 25px;
+                transition: 0.3s;
+              }
+
+              .menu span:after {
+                content: '';
+                position: absolute;
+                top: 8px;
+                background-color: #fff;
+                height: 3px;
+                width: 25px;
+                transition: 0.3s;
+              }
+
+              .menu.active span { background-color: transparent; }
+              .menu.active span:before { transform: rotate(45deg);top: 0; }
+              .menu.active span:after { transform: rotate(-45deg);top: 0; }
+
+              .navbar-menu { height: auto;z-index: 1; }
+              .menu-listing li { display: block; }
+              .navbar-menu .menu-listing { text-align: center; }
+
+              /* LINKS */
+              a {
+                outline: none;
+                text-decoration: none;
+              }
+              /* These are the link colours */
+                a:link {
+                  color: white;
+              }
+              /* visited link */
+                a:visited {
+                  color: white;
+              }
+              /* mouse over link */
+                a:hover {
+                  color: white;
+                  text-decoration: underline;
+              }
+              /* selected link */
+                a:active {
+                  color: #ff6600;
+              }
+
+              /* Buttons*/
+              .button {
+                width: 125px;
+                height: 25px;
+                padding: 10px;
+                background-color: #ff6600;
+                border: 2px solid #ff6600;
+                border-radius: 8px;
+                margin: 50px;
+                margin-bottom: 70px;
+              }
+
+              .button {
+                font-family: 'Raleway', sans-serif;
+                font-size: 18px;
+                font-weight: bold;
+                letter-spacing: 1px;
+                color: white;
+                transition: 0.5s;
+                text-align: center;
+              }
+
+              .button:hover {
+                background-color: rgb(0,255,255);
+                color: white;
+                width: 150px;
+                transition: 0.5s;
+                border: 2px solid rgb(0,255,255);
+                border-radius:100px;
+              }
+
+              .hero {
+                width: 100%;
+                height: 500px;
+                background-color: black;
+              }
+
+              /* Hero text */
+              .intro-1 {
+                width: 100%;
+                height: 550px;
+                color: white;
+                font-family: 'Raleway', sans-serif;
+                text-align: center;
+                align-items: center;
+                line-height: 1.6;
+              }
+
+              .intro-1 p1 {
+                padding: 10px;
+                padding-left: 20px;
+                color: #ff6600;
+                font-size: 20px;
+                line-height: 1;
+                font-weight: 800;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+              }
+
+              .intro-1 p2 {
+                padding: 10px;
+                padding-left: 20px;
+                line-height: 1.6;
+                color: white;
+                font-size: 20px;
+              }
+
+              .intro-1 p3 {
+                padding: 10px;
+                padding-left: 20px;
+                color: white;
+                font-size: 30px;
+                font-weight: 800;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+              }
+
+              .intro-1 p4 {
+                padding: 10px;
+                padding-left: 12px;
+                color: white;
+                font-size: 1.5em;
+              }
+
+              .intro-1 p5 {
+                font-family: 'Luckiest Guy', cursive;
+                color: white;
+                font-size: 1.5em;
+                letter-spacing: 2px;
+              }
+
+              /* Images */
+              .column-container {
+                width: 100%;
+                height: 300px;
+                display: flex;
+              }
+
+              .column {
+                width: 50%;
+                height: 300px;
+              }
+
+              .column img {
+                float: left;
+                width: 50%;
+                height:100%;
+                object-fit: cover;
+              }
+
+              /* GALLERY */
+              .gallery {
+                width: 610px;
+                display: inline-block;
+                justify-content: center;
+                align-items: center;
+              }
+
+              #gallery_viewport {
+                overflow: hidden;
+                background-color: black;
+                margin-top: 20px;
+                width: 100%;
+                margin-left: 70px;
+                height: 360px;
+                min-width: 306px;
+                min-height: 340px;
+                background-repeat: no-repeat;
+                position: relative;
+                float: left;
+                justify-content: center;
+                align-items: center;
+                display: inline-block;
+              }
+
+              #gallery_image {
+                position: relative;
+                height: 306px;
+                min-height: 306px;
+                background-repeat: no-repeat;
+              }
+
+              .tiled_image {
+                display: inline;
+                float: left;
+                width: 306px;
+                height: 306px;
+              }
+
+              .styled_button {
+                -moz-border-radius: 5px;
+                -webkit-border-radius: 5px;
+                border-radius: 5px;
+                background-color: black;
+                color: white;
+                text-align: center;
+                cursor: pointer;
+              }
+
+              #previous {
+                display: flex;
+                float: left;
+                width: 100px;
+                padding: 12px;
+                margin-left: 178px;
+                margin-top: 4px;
+                justify-content: center;
+                align-items: center;
+                background-color: #ff6600;
+                border: solid 1px #ff6600;
+              }
+
+              #previous {
+                color: white;
+                font-family: 'Raleway'; sans-serif;
+                letter-spacing: 1px;
+                font-weight: bold;
+                font-size: 1em;
+              }
+
+              #next {
+                float: left;
+                display: flex;
+                margin-left: 5px;
+                margin-top: 4px;
+                padding: 12px;
+                justify-content: center;
+                align-items: center;
+                width: 100px;
+                background-color: #ff6600;
+                border: solid 1px #ff6600;
+              }
+
+              #next {
+                color: white;
+                font-family: 'Raleway'; sans-serif;
+                letter-spacing: 1px;
+                font-weight: bold;
+                font-size: 1em;
+              }
+
+              /* Ticket section */
+              .purchase{
+                width: 100%;
+                height: 150px;
+                float: left;
+                display: flex;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                background-color: #ff6600;
+              }
+
+              .purchase p1 {
+                margin-top: 50px;
+                font-family: 'Luckiest Guy'; sans-serif;
+                font-size: 60px;
+                color: white;
+                letter-spacing: 4px;
+              }
+
+              .ticket.container {
+                width: 100%;
+                height: 200px;
+                display: flex;
+              }
+
+              .ticket {
+                width: 33.33%;
+                height: 150px;
+                padding-top: 30px;
+                background-color: black;
+                float: left;
+                text-align: center;
+                align-items: center;
+                line-height: 1.6;
+              }
+
+              .ticket p6 {
+                padding: 10px;
+                padding-left: 20px;
+                font-family: 'Luckiest Guy'; cursive;
+                font-size: 30px;
+                color: white;
+                letter-spacing: 2px;
+              }
+
+              .ticket p7 {
+                padding: 10px;
+                padding-left: 14px;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 800;
+                font-size: 25px;
+                color: #ff6600;
+                letter-spacing: 2px;
+              }
+
+              .ticket p8 {
+                padding: 10px;
+                padding-left: 20px;
+                font-family: 'Raleway', sans-serif;
+                font-size: 18px;
+                color: white;
+                font-style: italic;
+              }
+
+              /* Book now */
+              .book {
+                width: 33.33%;
+                height: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                float: left;
+                background-color: black;
+                padding-bottom: 60px;
+              }
+
+              /* Contact information */
+              .footer {
+                width: 33.33%;
+                height: 50px;
+                display: flex;
+                float: left;
+                background-color: black;
+                text-align: center;
+                justify-content: center;
+              }
+
+              .footer {
+                font-family: 'Raleway'; sans-serif;
+                font-size: 0.75em;
+                color: white;
+                text-decoration: underline;
+              }
+
+              /* Newsletter form */
+              .newsletter {
+                width: 100%;
+                float: left;
+                display: inline-block;
+                background-color: #ff6600;
+              }
+
+              form {
+                margin: 0 auto;
+                width: 80%;
+                justify-content: center;
+                align-items: center;
+                border: 3px solid #ff6600;
+                font-family: 'Raleway'; sans-serif;
+                color: white;
+              }
+
+              .container {
+                padding: 20px;
+                background-color: #ff6600;
+              }
+
+              .h2 {
+                padding-top: 20px;
+              }
+
+              input[type=text], input[type=submit] {
+                width: 100%;
+                padding: 12px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ff6600;
+                box-sizing: border-box;
+                font-family: 'Raleway'; sans-serif;
+                font-size: 18px;
+                color: white;
+              }
+
+              input[type=submit] {
+                background-color: rgba(255, 102, 0, 0);
+                width: 100%;
+                transition: 1s;
+                color: white;
+                border: none;
+                font-family: 'Luckiest Guy'; sens-serif;
+                font-size: 30px;
+                letter-spacing: 4px;
+              }
+
+              input[type=submit]:hover {
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                padding: 10px;
+                transition: 0.5s;
+                color: black;
+                text-decoration: underline;
+              }
+
+              /* social media icons */
+              .social {
+                width: 100%;
+                background-color: black;
+                float: left;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-top: 20px;
+                padding-bottom: 20px;
+              }
+
+              .fa {
+                padding: 20px;
+                font-size: 50px;
+                width: 20px;
+                text-align: center;
+                text-decoration: none;
+                margin: 5px 2px;
+                border-radius: 70%;
+              }
+
+              .fa:hover {
+                opacity: 0.7;
+              }
+
+              .fa-facebook {
+                background: #3B5998;
+                color: white;
+              }
+
+              .fa-instagram {
+                background: #125688;
+                color: white;
+              }
+          }
+
+                      /************************* Mobile *************************/
+
+                      @media only screen and (max-width: 600px) {
+
+                        body {
+                          margin: 0;
+                          font-family: 'Raleway', sans-serif;
+                          background-color: black;
+                        }
+
+                        .main {
+                          width: 100%;
+                          background-color: rgb(204, 0, 153);
+                        }
+
+                        .header-container {
+                          width: 100%;
+                          height: 150px;
+                          background-color: rgb(255,102,0);
+                          font-size: 50px;
+                          text-align: center;
+                        }
+
+                        .header-container img {
+                          position: relative;
+                          height: 160px;
+                          clip: rect(0px,60px,200px,0px);
+                          object-fit: cover;
+                        }
+
+                        .header-container {
+                          position: relative;
+                          text-align: center;
+                          background-color: : white;
+                        }
+
+                        .h1 {
+                          color: white;
+                          font-family:  'Luckiest Guy', cursive;
+                          font-weight: bold;
+                          letter-spacing: 6px;
+                          font-size: 1em;
+                          text-align: center;
+                        }
+
+                        .h1 {
+                          width: 100%;
+                          position: absolute;
+                          top: 50%;
+                          left: 50%;
+                          transform: translate(-50%, -50%);
+                          text-align: center;
+                        }
+
+                        /* Hamburger */
+                        .navbar-menu {
+                          background-color: #fafafa;
+                          position: absolute;
+                          top: 0;
+                          left: 0;
+                          width: 100%;
+                          height: 200px;
+                          transform: translateX(-100%);
+                          transition: 0.5s;
+                        }
+
+                        .navbar-menu.active { transform: translateX(0);transition: 0.5s; }
+                        .navbar-menu .menu-listing { padding: 0;margin: 0;text-align: right; }
+                        .menu-listing li { display: inline-block; }
+
+                        .menu-listing li a {
+                          background-color: #000000;
+                          color: white;
+                          display: block;
+                          font-size: 1rem;
+                          height: 30px;
+                          line-height: 3;
+                          padding: 0 10px;
+                          padding-bottom: 10px;
+                          letter-spacing: 1px;
+                          text-decoration: none;
+                          transition: 0.5s;
+                        }
+
+                        .menu-listing li a:hover { background-color: rgb(204, 0, 153);color: pink;transition: 0.5s; }
+
+                        .menu {
+                          position: relative;
+                          top: 10px;
+                          left: 0;
+                          background-color: rgb(255,102,0);
+                          height: 50px;
+                          width: 100%;
+                          cursor: pointer;
+                          transition: 0.3s;
+                          z-index: 9999;
+                        }
+
+                        .menu span {
+                          position: absolute;
+                          height: 3px;
+                          width: 25px;
+                          background-color: #fff;
+                          top: 50%;
+                          left: 50%;
+                          transform: translate(-50%,-50%);
+                          transition: 0.3s;
+                        }
+
+                        .menu span:before {
+                          content: '';
+                          position: absolute;
+                          top: -8px;
+                          background-color: #fff;
+                          height: 3px;
+                          width: 25px;
+                          transition: 0.3s;
+                        }
+
+                        .menu span:after {
+                          content: '';
+                          position: absolute;
+                          top: 8px;
+                          background-color: #fff;
+                          height: 3px;
+                          width: 25px;
+                          transition: 0.3s;
+                        }
+
+                        .menu.active span { background-color: transparent; }
+                        .menu.active span:before { transform: rotate(45deg);top: 0; }
+                        .menu.active span:after { transform: rotate(-45deg);top: 0; }
+
+                        .navbar-menu { height: auto;z-index: 1; }
+                        .menu-listing li { display: block; }
+                        .navbar-menu .menu-listing { text-align: center; }
+
+                        /* LINKS */
+                        a {
+                          outline: none;
+                          text-decoration: none;
+                        }
+                        /* These are the link colours */
+                          a:link {
+                            color: white;
+                        }
+                        /* visited link */
+                          a:visited {
+                            color: white;
+                        }
+                        /* mouse over link */
+                          a:hover {
+                            color: white;
+                            text-decoration: underline;
+                        }
+                        /* selected link */
+                          a:active {
+                            color: #ff6600;
+                        }
+
+                        /* Buttons*/
+                        .button {
+                          width: 125px;
+                          height: 25px;
+                          padding: 10px;
+                          background-color: #ff6600;
+                          border: 2px solid #ff6600;
+                          border-radius: 8px;
+                          margin: 50px;
+                          margin-bottom: 70px;
+                        }
+
+                        .button {
+                          font-family: 'Raleway', sans-serif;
+                          font-size: 0.75em;
+                          font-weight: bold;
+                          letter-spacing: 1px;
+                          color: white;
+                          transition: 0.5s;
+                          text-align: center;
+                        }
+
+                        .button:hover {
+                          background-color: rgb(0,255,255);
+                          color: white;
+                          width: 150px;
+                          transition: 0.5s;
+                          border: 2px solid rgb(0,255,255);
+                          border-radius:100px;
+                        }
+
+                        .hero {
+                          width: 100%;
+                          height: 450px;
+                          background-color: black;
+                        }
+
+                        /* Hero text */
+                        .intro-1 {
+                          width: 100%;
+                          height: 450px;
+                          color: white;
+                          font-family: 'Raleway', sans-serif;
+                          text-align: center;
+                          align-items: center;
+                          line-height: 1.6;
+                        }
+
+                        .intro-1 p1 {
+                          padding: 10px;
+                          padding-left: 20px;
+                          color: #ff6600;
+                          font-size: 1em;
+                          line-height: 1;
+                          font-weight: 800;
+                          text-transform: uppercase;
+                          letter-spacing: 2px;
+                        }
+
+                        .intro-1 p2 {
+                          padding: 10px;
+                          padding-left: 20px;
+                          line-height: 1.6;
+                          color: white;
+                          font-size: 0.75em;
+                        }
+
+                        .intro-1 p3 {
+                          padding: 10px;
+                          padding-left: 20px;
+                          color: white;
+                          font-size: 1em;
+                          font-weight: 800;
+                          letter-spacing: 2px;
+                          text-transform: uppercase;
+                        }
+
+                        .intro-1 p4 {
+                          padding: 10px;
+                          padding-left: 20px;
+                          color: white;
+                          font-size: 0.75em;
+                        }
+
+                        .intro-1 p5 {
+                          padding: 20px;
+                          padding-left: 10px;
+                          font-family: 'Luckiest Guy', cursive;
+                          color: white;
+                          line-height: 1.4;
+                          font-size: 1.5em;
+                          letter-spacing: 0.5px;
+                        }
+
+                        /* Images */
+                        .column-container {
+                          width: 100%;
+                          height: 300px;
+                          display: flex;
+                        }
+
+                        .column {
+                          width: 50%;
+                          height: 300px;
+                        }
+
+                        .column img {
+                          float: left;
+                          width: 50%;
+                          height:100%;
+                          object-fit: cover;
+                        }
+
+                        /*  Gallery */
+                        .gallery {
+                          width: 306px;
+                          display: inline-block;
+                          justify-content: center;
+                          align-items: center;
+                        }
+
+                        #gallery_viewport {
+                          overflow: hidden;
+                          background-color: black;
+                          margin-top: 20px;
+                          width: 100%;
+                          margin-left: 55px;
+                          height: 360px;
+                          min-width: 306px;
+                          min-height: 340px;
+                          background-repeat: no-repeat;
+                          position: relative;
+                          float: left;
+                          justify-content: center;
+                          align-items: center;
+                          display: inline-block;
+                        }
+
+                        #gallery_image {
+                          position: relative;
+                          height: 306px;
+                          min-height: 306px;
+                          background-repeat: no-repeat;
+                        }
+
+                        .tiled_image {
+                          display: inline;
+                          float: left;
+                          width: 306px;
+                          height: 306px;
+                        }
+
+                        .styled_button {
+                          -moz-border-radius: 5px;
+                          -webkit-border-radius: 5px;
+                          border-radius: 5px;
+                          background-color: black;
+                          color: white;
+                          text-align: center;
+                          cursor: pointer;
+                        }
+
+                        #previous {
+                          display: flex;
+                          float: left;
+                          width: 100px;
+                          padding: 12px;
+                          margin-left: 25px;
+                          margin-top: 4px;
+                          justify-content: center;
+                          align-items: center;
+                          background-color: rgba(255, 102, 0, 0);
+                          border: solid 1px #ff6600;
+                        }
+
+                        #previous {
+                          color: white;
+                          font-family: 'Raleway'; sans-serif;
+                          letter-spacing: 1px;
+                          font-weight: bold;
+                          font-size: 1em;
+                        }
+
+                        #next {
+                          float: left;
+                          display: flex;
+                          margin-left: 5px;
+                          margin-top: 4px;
+                          padding: 12px;
+                          justify-content: center;
+                          align-items: center;
+                          width: 100px;
+                          background-color: rgba(255, 102, 0, 0);
+                          border: solid 1px #ff6600;
+                        }
+
+                        #next {
+                          color: white;
+                          font-family: 'Raleway'; sans-serif;
+                          letter-spacing: 1px;
+                          font-weight: bold;
+                          font-size: 1em;
+                        }
+
+                        /* Ticket section */
+                        .purchase{
+                          width: 100%;
+                          height: 50px;
+                          float: left;
+                          display: flex;
+                          text-align: center;
+                          align-items: center;
+                          justify-content: center;
+                          background-color: #ff6600;
+                        }
+
+                        .purchase p1 {
+                          margin-top: 10px;
+                          font-family: 'Luckiest Guy'; sans-serif;
+                          font-size: 2em;
+                          color: white;
+                          letter-spacing: 4px;
+                        }
+
+                        .ticket.container {
+                          width: 100%;
+                          height: 100px;
+                          float: left;
+                        }
+
+                        .ticket {
+                          width: 33.33%;
+                          height: 150px;
+                          padding-top: 30px;
+                          background-color: black;
+                          float: left;
+                          text-align: center;
+                          align-items: center;
+                          line-height: 1.6;
+                        }
+
+                        .ticket p6 {
+                          padding: 10px;
+                          padding-left: 20px;
+                          font-family: 'Luckiest Guy'; cursive;
+                          font-size: 1em;
+                          color: white;
+                          letter-spacing: 2px;
+                        }
+
+                        .ticket p7 {
+                          padding: 10px;
+                          padding-left: 14px;
+                          font-family: 'Raleway', sans-serif;
+                          font-weight: 800;
+                          font-size: 1.5em;
+                          color: #ff6600;
+                          letter-spacing: 2px;
+                        }
+
+                        .ticket p8 {
+                          padding: 10px;
+                          padding-left: 20px;
+                          font-family: 'Raleway', sans-serif;
+                          font-size: 1em;
+                          color: white;
+                          font-style: italic;
+                        }
+
+                        /* Book now */
+                        .book {
+                          width: 33.33%;
+                          height: 70px;
+                          display: flex;
+                          align-items: center;
+                          justify-content: center;
+                          float: left;
+                          background-color: black;
+                          padding-bottom: 10px;
+                        }
+
+                        /* Contact information */
+                        .footer {
+                          width: 33.33%;
+                          height: 50px;
+                          display: flex;
+                          float: left;
+                          background-color: black;
+                          text-align: center;
+                          justify-content: center;
+                        }
+
+                        .footer {
+                          font-family: 'Raleway'; sans-serif;
+                          font-size: 0.75em;
+                          color: white;
+                          text-decoration: underline;
+                        }
+
+                        /* Newsletter form */
+                        .newsletter {
+                          width: 100%;
+                          height: 400px;
+                          float: left;
+                          display: inline-block;
+                          background-color: #ff6600;
+                        }
+
+                        form {
+                          margin: 0 auto;
+                          width: 80%;
+                          justify-content: center;
+                          align-items: center;
+                          border: 3px solid #ff6600;
+                          font-family: 'Raleway'; sans-serif;
+                          color: white;
+                        }
+
+                        .container {
+                          padding: 5px;
+                          background-color: #ff6600;
+                        }
+
+                        .h2 {
+                          padding-top: 20px;
+                        }
+
+                        input[type=text], input[type=submit] {
+                          width: 100%;
+                          padding: 10px;
+                          margin: 8px 0;
+                          display: inline-block;
+                          border: 1px solid #ff6600;
+                          box-sizing: border-box;
+                          font-family: 'Raleway'; sans-serif;
+                          font-size: 18px;
+                          color: white;
+                        }
+
+                        input[type=submit] {
+                          background-color: rgba(255, 102, 0, 0);
+                          width: 100%;
+                          transition: 1s;
+                          color: white;
+                          border: none;
+                          font-family: 'Luckiest Guy'; sens-serif;
+                          font-size: 1.5em;
+                          letter-spacing: 4px;
+                        }
+
+                        input[type=submit]:hover {
+                          align-items: center;
+                          justify-content: center;
+                          width: 100%;
+                          padding: 10px;
+                          transition: 0.5s;
+                          color: black;
+                          text-decoration: underline;
+                        }
+
+                        /* social media icons */
+                        .social {
+                          width: 100%;
+                          background-color: black;
+                          float: left;
+                          display: flex;
+                          align-items: center;
+                          justify-content: center;
+                        }
+
+                        .fa {
+                          padding: 20px;
+                          font-size: 20px;
+                          width: 10px;
+                          height: 10px;
+                          text-align: center;
+                          text-decoration: none;
+                          margin: 5px 2px;
+                          border-radius: 70%;
+                        }
+
+                        .fa:hover {
+                          opacity: 0.7;
+                        }
+
+                        .fa-facebook {
+                          background: #3B5998;
+                          color: white;
+                        }
+
+                        .fa-instagram {
+                          background: #125688;
+                          color: white;
+                        }
+
+                      }
