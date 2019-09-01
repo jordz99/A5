@@ -1,6 +1,6 @@
 
  
-        /************** laptop **************/
+    /************** laptop **************/
 
       @media only screen and (min-width: 1200px) {
 
@@ -22,17 +22,6 @@ body {
   font-size: 50px;
   text-align: center;
 }
-
-
-
-<div id="abc" class="slides">
-    <img src="gallery/eight.jpg" />
-    <img src="gallery/eleven.jpg"/>
-    <img src="gallery/five.jpg" />
-    <img src="gallery/three.jpg"/>
-</div>
-
-
 
 
 .header-container img {
@@ -219,6 +208,104 @@ a {
   object-fit: cover;
 }
 
+
+/* Gllaery */
+
+.gallery {
+  width: 100%;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#gallery_viewport {
+    overflow: hidden;
+    background-color: black;
+    margin-top: 20px;
+    width: 100%;
+    height: 360px;
+    min-width: 306px;
+    min-height: 340px;
+    background-repeat: no-repeat;
+    position: relative;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+
+
+}
+
+#gallery_image {
+    position: relative;
+    height: 306px;
+    min-height: 306px;
+    background-repeat: no-repeat;
+}
+
+.tiled_image {
+    display: inline;
+    float: left;
+    width: 306px;
+    height: 306px;
+}
+
+.styled_button {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+#previous {
+    display: flex;
+    float: left;
+    width: 300px;
+    padding: 5px;
+    margin-left: 30%;
+    margin-top: 4px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 102, 0, 0);
+    border: solid 1px #ff6600;
+
+}
+
+#previous {
+    color: white;
+    font-family: 'Raleway'; sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#next {
+  float: left;
+  display: flex;
+  margin-left: 5px;
+  margin-top: 4px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  background-color: rgba(255, 102, 0, 0);
+border: solid 1px #ff6600;
+
+}
+
+#next {
+    color: white;
+    font-family: 'Raleway'; sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
 /* Ticket section */
 .purchase{
   width: 100%;
@@ -233,7 +320,7 @@ a {
 
 .purchase p1 {
   margin-top: 50px;
-  font-family: 'Luckiest Guy'; sans-serif;
+  font-family: 'Luckiest Guy'; cursive;
   font-size: 60px;
   color: white;
   letter-spacing: 4px;
@@ -517,8 +604,8 @@ input[type=submit]:hover {
       color: white;
       display: block;
       font-size: 1rem;
-      height: 30px;
-      line-height: 3;
+      height: 55px;
+      line-height: 4;
       padding: 0 10px;
       padding-bottom: 10px;
       letter-spacing: 1px;
@@ -526,7 +613,7 @@ input[type=submit]:hover {
       transition: 0.5s;
     }
 
-    .menu-listing li a:hover { background-color: rgb(204, 0, 153);color: pink;transition: 0.5s; }
+    .menu-listing li a:hover { background-color: rgb(255,102,0);color: white;transition: 0.5s; }
 
 /* FOR HAMBURGER */
     .menu {
@@ -697,16 +784,17 @@ input[type=submit]:hover {
       padding: 10px;
       padding-left: 12px;
       color: white;
-      font-size: 30px;
+      font-size: 1.5em;
     }
 
     .intro-1 p5 {
-      padding: 10px;
-      padding-left: 20px;
+
+
       font-family: 'Luckiest Guy', cursive;
       color: white;
-      font-size: 2.5em;
-      letter-spacing: 6px;
+      font-size: 1.5em;
+      letter-spacing: 2px;
+
     }
 
 
@@ -728,6 +816,106 @@ input[type=submit]:hover {
       height:100%;
       object-fit: cover;
     }
+
+
+/* GALLERY */
+
+
+    .gallery {
+      width: 610px;
+      display: inline-block;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    #gallery_viewport {
+        overflow: hidden;
+        background-color: black;
+        margin-top: 20px;
+        width: 100%;
+        margin-left: 70px;
+        height: 360px;
+        min-width: 306px;
+        min-height: 340px;
+        background-repeat: no-repeat;
+        position: relative;
+        float: left;
+        justify-content: center;
+        align-items: center;
+        display: inline-block;
+    }
+
+    #gallery_image {
+        position: relative;
+        height: 306px;
+        min-height: 306px;
+        background-repeat: no-repeat;
+    }
+
+    .tiled_image {
+        display: inline;
+        float: left;
+        width: 306px;
+        height: 306px;
+    }
+
+    .styled_button {
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        cursor: pointer;
+    }
+
+
+    #previous {
+        display: flex;
+        float: left;
+        width: 100px;
+        padding: 12px;
+        margin-left: 178px;
+        margin-top: 4px;
+        justify-content: center;
+        align-items: center;
+        background-color: #ff6600;
+        border: solid 1px #ff6600;
+
+    }
+
+    #previous {
+        color: white;
+        font-family: 'Raleway'; sans-serif;
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-size: 1em;
+    }
+
+    #next {
+      float: left;
+      display: flex;
+      margin-left: 5px;
+      margin-top: 4px;
+      padding: 12px;
+      justify-content: center;
+      align-items: center;
+      width: 100px;
+      background-color: #ff6600;
+    border: solid 1px #ff6600;
+
+    }
+
+    #next {
+        color: white;
+        font-family: 'Raleway'; sans-serif;
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-size: 1em;
+    }
+
+
 
     /* Ticket section */
     .purchase{
@@ -819,7 +1007,7 @@ input[type=submit]:hover {
 
     .footer {
       font-family: 'Raleway'; sans-serif;
-      font-size: 18px;
+      font-size: 0.75em;
       color: white;
       text-decoration: underline;
     }
@@ -834,7 +1022,7 @@ input[type=submit]:hover {
 
     form {
       margin: 0 auto;
-      width: 50%;
+      width: 80%;
       justify-content: center;
       align-items: center;
       border: 3px solid #ff6600;
@@ -1215,6 +1403,109 @@ input[type=submit]:hover {
       height:100%;
       object-fit: cover;
     }
+
+
+
+/* gallery */
+
+.gallery {
+  width: 306px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#gallery_viewport {
+    overflow: hidden;
+    background-color: black;
+    margin-top: 20px;
+    width: 100%;
+    margin-left: 55px;
+    height: 360px;
+    min-width: 306px;
+    min-height: 340px;
+    background-repeat: no-repeat;
+    position: relative;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+
+
+
+}
+
+#gallery_image {
+    position: relative;
+    height: 306px;
+    min-height: 306px;
+    background-repeat: no-repeat;
+}
+
+.tiled_image {
+    display: inline;
+    float: left;
+    width: 306px;
+    height: 306px;
+}
+
+.styled_button {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+#previous {
+    display: flex;
+    float: left;
+    width: 100px;
+    padding: 12px;
+    margin-left: 25px;
+    margin-top: 4px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 102, 0, 0);
+    border: solid 1px #ff6600;
+
+}
+
+#previous {
+    color: white;
+    font-family: 'Raleway'; sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#next {
+  float: left;
+  display: flex;
+  margin-left: 5px;
+  margin-top: 4px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  background-color: rgba(255, 102, 0, 0);
+border: solid 1px #ff6600;
+
+}
+
+#next {
+    color: white;
+    font-family: 'Raleway'; sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+
 
     /* Ticket section */
     .purchase{
